@@ -1,0 +1,10 @@
+'''
+Imprimir uma letra por linha de qualquer palavra
+'''
+palavra = input("Insira uma palavra qualquer: ")
+num = 1
+for letras in palavra:
+    print(f"{letras} é a {num}° letra da palavra {palavra}")
+    num += 1
+print()
+print(f"A palavra {palavra} tem exatamente {num - 1} letras",end=".")
